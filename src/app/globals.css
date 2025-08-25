@@ -1,26 +1,72 @@
+/* Tailwind v4 */
 @import "tailwindcss";
 
+/* ── Variables de marca ─────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colores principales */
+  --brand-ink: #19374c;  /* texto/logo */
+  --brand-sun: #ffce35;  /* fondo/acento */
+
+  /* Derivados (precalculados, sin color-mix) */
+  --ink-50:  #e8edf1;
+  --ink-100: #d1dbe3;
+  --ink-400: #476f8f;
+  --ink-600: #143a59;
+
+  --sun-50:  #fff7d1;
+  --sun-100: #ffefaa;
+
+  /* Shadow y radios */
+  --shadow-soft: 0 8px 30px rgba(25,55,76,0.08);
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ── Base global ────────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--brand-ink);
+  background: var(--sun-50);
 }
+a { transition: opacity .2s ease; }
+a:hover { opacity: .8; }
+
+/* ── Utilidades personalizadas (v4 no requiere @layer) ─────── */
+.container-max { /* contenedor responsive */
+  /* usa Tailwind via @apply */
+  @apply mx-auto max-w-7xl px-4;
+}
+
+.card {
+  @apply bg-white border;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-soft);
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 font-medium border;
+  border-radius: var(--radius-xl);
+}
+.btn-primary {
+  @apply text-white;
+  background: var(--brand-ink);
+  border-color: var(--brand-ink);
+}
+.btn-ghost {
+  @apply bg-white;
+  color: var(--brand-ink);
+  border-color: transparent;
+}
+
+/* Helpers de color */
+.text-ink { color: var(--brand-ink); }
+.text-ink-600 { color: var(--ink-600); }
+.text-ink-400 { color: var(--ink-400); }
+.bg-sun { background: var(--brand-sun); }
+.bg-sun-50 { background: var(--sun-50); }
+.bg-sun-100 { background: var(--sun-100); }
+
+/* Navbar helpers */
+.nav-link { @apply px-3 py-2 text-sm; }
+.nav-link:hover { color: var(--ink-600); }
+.nav-cta { @apply ml-2; }

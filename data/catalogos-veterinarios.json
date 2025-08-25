@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "linea-alimentos-pro",
+    "titulo": "Línea de Alimentos Pro",
+    "marca": "Animalijos Pro",
+    "descripcion": "Selección de alimentos de uso clínico con presentaciones para hospitalización y recuperación.",
+    "portada": "/catalogos/portadas/alimentos-pro.jpg",
+    "pdfUrl": "/catalogos/alimentos-pro.pdf",
+    "pagina": ""
+  },
+  {
+    "slug": "consumibles-clinica",
+    "titulo": "Consumibles para clínica",
+    "marca": "Multimarca",
+    "descripcion": "Guantes, gasas, soluciones, jeringas y más. Presentaciones por caja o volumen.",
+    "portada": "/catalogos/portadas/consumibles.jpg",
+    "pdfUrl": "/catalogos/consumibles-clinica.pdf",
+    "pagina": ""
+  },
+  {
+    "slug": "equipamiento-basico",
+    "titulo": "Equipamiento básico",
+    "marca": "VetEquip",
+    "descripcion": "Mesas, jaulas, lámparas, bombas de infusión y accesorios.",
+    "portada": "/catalogos/portadas/equipamiento.jpg",
+    "pdfUrl": "/catalogos/equipamiento-basico.pdf",
+    "pagina": ""
+  }
+]

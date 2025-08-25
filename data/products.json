@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pedigree-20kg",
+    "nombre": "Pedigree Adulto 20kg",
+    "marca": "Pedigree",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/pedigree-20kg.jpg",
+    "sku": "PED-20KG-001",
+    "descripcion": "Alimento seco completo y balanceado para perros adultos.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Tipo", "value": "Alimento seco" },
+      { "label": "Edad recomendada", "value": "Adultos" },
+      { "label": "Sabor", "value": "Carne y vegetales" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "whiskas-gatitos-1kg",
+    "nombre": "Whiskas Gatitos 1kg",
+    "marca": "Whiskas",
+    "categoria": "Alimento",
+    "presentacion": "1kg",
+    "imagen": "/products/whiskas-gatitos-1kg.jpg",
+    "sku": "WHI-1KG-010",
+    "descripcion": "Alimento completo para gatitos de 2 a 12 meses con DHA y calcio.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Tipo", "value": "Alimento seco" },
+      { "label": "Edad recomendada", "value": "Cachorros (2–12 meses)" },
+      { "label": "Sabor", "value": "Pescado y leche" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "shampoo-perros-avena",
+    "nombre": "Shampoo para perros de avena",
+    "marca": "Animalijos Care",
+    "categoria": "Higiene",
+    "presentacion": "500ml",
+    "imagen": "/products/shampoo-avena.jpg",
+    "sku": "ANI-SHAM-500",
+    "descripcion": "Shampoo hipoalergénico con avena para piel sensible.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Tipo", "value": "Shampoo líquido" },
+      { "label": "Función", "value": "Cuidado de piel sensible" },
+      { "label": "Fragancia", "value": "Suave, hipoalergénica" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "collar-ajustable-m",
+    "nombre": "Collar ajustable tamaño M",
+    "marca": "Animalijos Accesorios",
+    "categoria": "Accesorios",
+    "presentacion": "Mediano",
+    "imagen": "/products/collar-m.jpg",
+    "sku": "ANI-COL-MED",
+    "descripcion": "Collar de nylon ajustable, resistente y cómodo para perros medianos.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Material", "value": "Nylon reforzado" },
+      { "label": "Tamaño", "value": "Mediano (35–50 cm)" },
+      { "label": "Color", "value": "Rojo" },
+      { "label": "Origen", "value": "México" }
+    ]
+  }
+]

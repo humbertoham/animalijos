@@ -1,6 +1,6 @@
 import Section from "@/components/common/Section";
 import ProductCard from "@/components/catalog/ProductCard";
-import data from "../../../data/products.json";
+import data from "../../../data/products.json"; // ✅ alias estable
 
 type SearchParams = {
   q?: string;
@@ -60,7 +60,10 @@ function relevanceScore(p: Product, term: string) {
   return score;
 }
 
-function buildQuery(original: URLSearchParams, overrides: Record<string, string | undefined | null>) {
+function buildQuery(
+  original: URLSearchParams,
+  overrides: Record<string, string | undefined | null>
+) {
   const next = new URLSearchParams(original.toString());
   Object.entries(overrides).forEach(([k, v]) => {
     if (v === undefined || v === null || v === "") next.delete(k);
@@ -75,20 +78,25 @@ function facetDefault(paramLower: string, facets: string[]) {
   return facets.find((f) => f.toLowerCase() === paramLower) ?? "";
 }
 
-export default function CatalogPage({ searchParams }: { searchParams: SearchParams }) {
-  const products = data as Product[];
+export default async function CatalogPage({
+  searchParams,
+}: {
+  searchParams: Promise<SearchParams>; // ✅ Promise<SearchParams>
+}) {
+  const sp = await searchParams; // ✅ await
 
+  const products = data as Product[];
   const { categorias, marcas, especies } = deriveFacets(products);
 
-  const q = (searchParams.q ?? "").trim();
+  const q = (sp.q ?? "").trim();
 
   // normalizamos params a lowercase para comparar
-  const categoriaParam = (searchParams.categoria ?? "").trim().toLowerCase();
-  const marcaParam = (searchParams.marca ?? "").trim().toLowerCase();
-  const especieParam = (searchParams.especie ?? "").trim().toLowerCase();
+  const categoriaParam = (sp.categoria ?? "").trim().toLowerCase();
+  const marcaParam = (sp.marca ?? "").trim().toLowerCase();
+  const especieParam = (sp.especie ?? "").trim().toLowerCase();
 
-  const order = (searchParams.order ?? "relevancia") as "relevancia" | "az" | "marca";
-  const page = Math.max(1, Number(searchParams.page ?? "1"));
+  const order = (sp.order ?? "relevancia") as "relevancia" | "az" | "marca";
+  const page = Math.max(1, Number(sp.page ?? "1"));
 
   // Filtrado case-insensitive
   let filtered = products.filter((p) => {
@@ -112,7 +120,9 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
     filtered = filtered.sort((a, b) => a.nombre.localeCompare(b.nombre));
   } else if (order === "marca") {
     filtered = filtered.sort(
-      (a, b) => (a.marca ?? "").localeCompare(b.marca ?? "") || a.nombre.localeCompare(b.nombre)
+      (a, b) =>
+        (a.marca ?? "").localeCompare(b.marca ?? "") ||
+        a.nombre.localeCompare(b.nombre)
     );
   } else if (order === "relevancia" && q) {
     filtered = filtered
@@ -127,13 +137,15 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
   const start = (page - 1) * PER_PAGE;
   const paged = filtered.slice(start, start + PER_PAGE);
 
-  const qs = new URLSearchParams(Object.entries(searchParams as any));
+  const qs = new URLSearchParams(Object.entries(sp as any)); // ✅ usa sp
 
   return (
     <>
       <header className="bg-[var(--brand-sun)]/20">
         <div className="container-max py-10">
-          <h1 className="text-3xl font-extrabold text-ink">Catálogo de productos</h1>
+          <h1 className="text-3xl font-extrabold text-ink">
+            Catálogo de productos
+          </h1>
           <p className="mt-2 text-ink-600 max-w-2xl">
             Filtra por especie, categoría o marca y solicita tu cotización.
           </p>
@@ -159,13 +171,14 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
             <span className="text-sm font-medium text-ink">Categoría</span>
             <select
               name="categoria"
-              // mostramos el valor canónico aunque el query venga en minúsculas
               defaultValue={facetDefault(categoriaParam, categorias)}
               className="border rounded-xl px-3 py-2"
             >
               <option value="">Todas</option>
               {categorias.map((c) => (
-                <option key={c} value={c}>{c}</option>
+                <option key={c} value={c}>
+                  {c}
+                </option>
               ))}
             </select>
           </label>
@@ -180,7 +193,9 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
             >
               <option value="">Todas</option>
               {marcas.map((m) => (
-                <option key={m} value={m}>{m}</option>
+                <option key={m} value={m}>
+                  {m}
+                </option>
               ))}
             </select>
           </label>
@@ -195,7 +210,9 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
             >
               <option value="">Todas</option>
               {especies.map((e) => (
-                <option key={e} value={e}>{e}</option>
+                <option key={e} value={e}>
+                  {e}
+                </option>
               ))}
             </select>
           </label>
@@ -203,7 +220,11 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
           {/* Orden */}
           <label className="lg:col-span-2 grid gap-1">
             <span className="text-sm font-medium text-ink">Ordenar por</span>
-            <select name="order" defaultValue={order} className="border rounded-xl px-3 py-2">
+            <select
+              name="order"
+              defaultValue={order}
+              className="border rounded-xl px-3 py-2"
+            >
               <option value="relevancia">Relevancia</option>
               <option value="az">Nombre (A–Z)</option>
               <option value="marca">Marca</option>
@@ -212,15 +233,25 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
 
           {/* Acciones */}
           <div className="lg:col-span-12 flex items-center gap-3 pt-1">
-            <button type="submit" className="btn btn-primary">Aplicar filtros</button>
+            <button type="submit" className="btn btn-primary">
+              Aplicar filtros
+            </button>
             <a
-              href={buildQuery(qs, { q: "", categoria: "", marca: "", especie: "", order: "", page: "" })}
+              href={buildQuery(qs, {
+                q: "",
+                categoria: "",
+                marca: "",
+                especie: "",
+                order: "",
+                page: "",
+              })}
               className="btn btn-ghost"
             >
               Limpiar
             </a>
             <div className="ml-auto text-sm text-ink-400">
-              Mostrando {paged.length} de {total} resultado{total === 1 ? "" : "s"}
+              Mostrando {paged.length} de {total} resultado
+              {total === 1 ? "" : "s"}
             </div>
           </div>
         </form>
@@ -240,7 +271,9 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
         {totalPages > 1 && (
           <nav className="mt-8 flex items-center justify-center gap-2">
             <a
-              className={`btn bg-white border-[var(--ink-50)] ${page <= 1 ? "opacity-50 pointer-events-none" : ""}`}
+              className={`btn bg-white border-[var(--ink-50)] ${
+                page <= 1 ? "opacity-50 pointer-events-none" : ""
+              }`}
               href={buildQuery(qs, { page: String(page - 1) })}
             >
               ← Anterior
@@ -249,7 +282,9 @@ export default function CatalogPage({ searchParams }: { searchParams: SearchPara
               Página {page} de {totalPages}
             </span>
             <a
-              className={`btn bg-white border-[var(--ink-50)] ${page >= totalPages ? "opacity-50 pointer-events-none" : ""}`}
+              className={`btn bg-white border-[var(--ink-50)] ${
+                page >= totalPages ? "opacity-50 pointer-events-none" : ""
+              }`}
               href={buildQuery(qs, { page: String(page + 1) })}
             >
               Siguiente →
@@ -272,7 +307,9 @@ function EmptyState({ q }: { q?: string }) {
           : "No hay productos para los filtros seleccionados."}
       </p>
       <div className="mt-4">
-        <a href="?" className="btn btn-ghost">Quitar filtros</a>
+        <a href="?" className="btn btn-ghost">
+          Quitar filtros
+        </a>
       </div>
     </div>
   );

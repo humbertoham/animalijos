@@ -35,8 +35,13 @@ export function generateStaticParams() {
   return list.map((p) => ({ slug: p.id }));
 }
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const p = getProduct(params.slug);
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params; // ← clave
+  const p = getProduct(slug);
   if (!p) return notFound();
 
   const message = encodeURIComponent(

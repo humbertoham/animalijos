@@ -1,70 +1,407 @@
 [
   {
-    "id": "pedigree-20kg",
-    "nombre": "Pedigree Adulto 20kg",
-    "marca": "Pedigree",
-    "categoria": "Alimento",
-    "presentacion": "20kg",
-    "imagen": "/products/pedigree-20kg.jpg",
-    "sku": "PED-20KG-001",
-    "descripcion": "Alimento seco completo y balanceado para perros adultos.",
-    "especie": "Perros",
+    "id": "snack-patas-pollo",
+    "nombre": "Snacks Patas de Pollo",
+    "marca": "Las Botanas del Rey",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 100g",
+    "imagen": "/products/patas-pollo.jpeg",
+    "sku": "LBR-SNP-POLLO-100",
+    "descripcion": "Snacks naturales deshidratados de patas de pollo, aptos para perros y gatos de todas las edades y razas.",
+    "especie": "Perros y Gatos",
     "detalles": [
-      { "label": "Tipo", "value": "Alimento seco" },
-      { "label": "Edad recomendada", "value": "Adultos" },
-      { "label": "Sabor", "value": "Carne y vegetales" },
+      { "label": "Tipo", "value": "Snack natural deshidratado" },
+      { "label": "Beneficio", "value": "Apto para todas las edades y razas" },
       { "label": "Origen", "value": "México" }
     ]
   },
   {
-    "id": "whiskas-gatitos-1kg",
-    "nombre": "Whiskas Gatitos 1kg",
-    "marca": "Whiskas",
+    "id": "snack-mixto",
+    "nombre": "Snack Mixto (Pollo, Res y Cerdo)",
+    "marca": "Las Botanas del Rey",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 100g",
+    "imagen": "/products/snack-mixto.jpeg",
+    "sku": "LBR-SNP-MIXTO-100",
+    "descripcion": "Mezcla de snacks deshidratados de pollo, res y cerdo. Apto para perros y gatos.",
+    "especie": "Perros y Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Herramienta para entrenamiento" },
+      { "label": "Beneficio", "value": "Estimulación olfativa" },
+      { "label": "Beneficio", "value": "Fortalece la salud dental" },
+      { "label": "Beneficio", "value": "Estimulación mental" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "snack-traquea-res",
+    "nombre": "Snacks Tráquea de Res",
+    "marca": "Las Botanas del Rey",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 70g",
+    "imagen": "/products/traquea-res.jpeg",
+    "sku": "LBR-SNP-TRAQ-70",
+    "descripcion": "Snacks de tráquea de res 100% natural deshidratada, ideales como premios para perros.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Tipo", "value": "Snack natural deshidratado" },
+      { "label": "Beneficio", "value": "Premio saludable" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "snack-pulmon-res",
+    "nombre": "Snacks Pulmón de Res",
+    "marca": "Las Botanas del Rey",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 35g",
+    "imagen": "/products/pulmon-res.jpeg",
+    "sku": "LBR-SNP-PULM-35",
+    "descripcion": "Snack ligero, aireado y crujiente, fácil de masticar, incluso para cachorros o perros mayores.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Tipo", "value": "Snack natural deshidratado" },
+      { "label": "Beneficio", "value": "Fácil de masticar" },
+      { "label": "Beneficio", "value": "Ideal para cachorros y perros mayores" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "snack-oreja-cerdo",
+    "nombre": "Snacks Oreja de Cerdo",
+    "marca": "Las Botanas del Rey",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 150g",
+    "imagen": "/products/oreja-cerdo.jpeg",
+    "sku": "LBR-SNP-OREJ-150",
+    "descripcion": "Snacks naturales deshidratados de oreja de cerdo, con múltiples beneficios para la salud de tu mascota.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Ayuda a limpiar los dientes" },
+      { "label": "Beneficio", "value": "Mejora articulaciones, piel y pelo" },
+      { "label": "Beneficio", "value": "Reduce estrés y ansiedad" },
+      { "label": "Beneficio", "value": "Bajo en grasa, ideal para controlar peso" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "alimento-carne-pollo",
+    "nombre": "Alimento Canino Carne de Pollo con Vegetales y Frutas",
+    "marca": "Bio-Alimento",
     "categoria": "Alimento",
     "presentacion": "1kg",
-    "imagen": "/products/whiskas-gatitos-1kg.jpg",
-    "sku": "WHI-1KG-010",
-    "descripcion": "Alimento completo para gatitos de 2 a 12 meses con DHA y calcio.",
+    "imagen": "/products/carne-pollo.jpeg",
+    "sku": "BIO-ALM-POLLO-1KG",
+    "descripcion": "Alimento canino a base de carne de pollo mezclado con vegetales y frutas. Calidad premium.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Conservación", "value": "Congelado hasta 60 días" },
+      { "label": "Preparación", "value": "Descongelar en refrigerador 24h antes" },
+      { "label": "Ingredientes", "value": "Cortes y vísceras de pollo, frutas, verduras, huevo" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "alimento-carne-res",
+    "nombre": "Alimento Canino Carne de Res con Vegetales y Frutas",
+    "marca": "Bio-Alimento",
+    "categoria": "Alimento",
+    "presentacion": "250g",
+    "imagen": "/products/carne-res.jpeg",
+    "sku": "BIO-ALM-RES-250",
+    "descripcion": "Alimento canino a base de carne de res mezclado con vegetales y frutas. Calidad premium.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Conservación", "value": "Congelado hasta 60 días" },
+      { "label": "Preparación", "value": "Descongelar en refrigerador 24h antes" },
+      { "label": "Ingredientes", "value": "Cortes y vísceras de res, frutas, verduras, huevo" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "dinapuppy-premium",
+    "nombre": "Dinapuppy Premium Cachorro",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/dinapuppy.jpeg",
+    "sku": "DNP-CACH-20KG",
+    "descripcion": "Alimento balanceado para cachorros de todas las razas con fórmula mejorada y aroma.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "27%" },
+      { "label": "Grasa", "value": "13%" },
+      { "label": "Fibra", "value": "4%" },
+      { "label": "Beneficio", "value": "Fórmula mejorada con aroma" }
+    ]
+  },
+  {
+    "id": "dinadog-mantenimiento",
+    "nombre": "Dinadog Mantenimiento Adulto",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/dinadog.jpeg",
+    "sku": "DND-ADULTO-20KG",
+    "descripcion": "Alimento balanceado para perros adultos de todas las razas, adicionado con prebióticos para una mejor digestión.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "19%" },
+      { "label": "Grasa", "value": "8%" },
+      { "label": "Fibra", "value": "4%" },
+      { "label": "Beneficio", "value": "Con prebióticos para mejor digestión" }
+    ]
+  },
+  {
+    "id": "dinacat-premium",
+    "nombre": "Dinacat Premium Gato",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "10kg",
+    "imagen": "/products/dinacat.jpeg",
+    "sku": "DNC-GATO-10KG",
+    "descripcion": "Alimento balanceado premium para gatos, con taurina, omega 3 y 6, vitaminas y minerales.",
     "especie": "Gatos",
     "detalles": [
-      { "label": "Tipo", "value": "Alimento seco" },
-      { "label": "Edad recomendada", "value": "Cachorros (2–12 meses)" },
-      { "label": "Sabor", "value": "Pescado y leche" },
-      { "label": "Origen", "value": "México" }
+      { "label": "Proteína", "value": "30%" },
+      { "label": "Grasa", "value": "10%" },
+      { "label": "Fibra", "value": "4%" },
+      { "label": "Beneficio", "value": "Taurina y Omega 3 y 6 para salud ocular y pelaje" }
     ]
   },
   {
-    "id": "shampoo-perros-avena",
-    "nombre": "Shampoo para perros de avena",
-    "marca": "Animalijos Care",
-    "categoria": "Higiene",
-    "presentacion": "500ml",
-    "imagen": "/products/shampoo-avena.jpg",
-    "sku": "ANI-SHAM-500",
-    "descripcion": "Shampoo hipoalergénico con avena para piel sensible.",
+    "id": "dinacan-adulto",
+    "nombre": "Dinacan Adulto",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/dinacan.jpeg",
+    "sku": "DNC-ADULTO-20KG",
+    "descripcion": "Alimento balanceado para perros adultos de todas las razas, adicionado con vitaminas y minerales.",
     "especie": "Perros",
     "detalles": [
-      { "label": "Tipo", "value": "Shampoo líquido" },
-      { "label": "Función", "value": "Cuidado de piel sensible" },
-      { "label": "Fragancia", "value": "Suave, hipoalergénica" },
+      { "label": "Proteína", "value": "16%" },
+      { "label": "Grasa", "value": "6%" },
+      { "label": "Fibra", "value": "4%" },
+      { "label": "Beneficio", "value": "Vitaminas y minerales añadidos" }
+    ]
+  },
+  {
+    "id": "dinagallo-25kg",
+    "nombre": "Dinagallo",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "25kg",
+    "imagen": "/products/dinagallo.jpeg",
+    "sku": "DNG-GALLO-25KG",
+    "descripcion": "Alimento premium para gallos de combate con granos selectos y esferas energéticas.",
+    "especie": "Aves (Gallos)",
+    "detalles": [
+      { "label": "Uso", "value": "Inicio, desarrollo, entrenamiento y combate" },
+      { "label": "Beneficio", "value": "Con esferas energéticas (grit)" },
       { "label": "Origen", "value": "México" }
     ]
   },
   {
-    "id": "collar-ajustable-m",
-    "nombre": "Collar ajustable tamaño M",
+    "id": "kaviarkan-salmon",
+    "nombre": "Kaviar-kan Croquetas de Salmón Adulto",
+    "marca": "Kaviar-kan",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/kaviarkan-salmon.jpeg",
+    "sku": "KVK-SALMON-20KG",
+    "descripcion": "Croquetas de salmón para perros adultos con proteínas de alta calidad y omega 3, ideales para energía y pelaje brillante.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta calidad animal" },
+      { "label": "Omega", "value": "3, 6 y 9" },
+      { "label": "Beneficio", "value": "Aporta energía y brillo al pelaje" }
+    ]
+  },
+  {
+    "id": "kaviarkan-ternera",
+    "nombre": "Kaviar-kan Croquetas de Ternera Adulto",
+    "marca": "Kaviar-kan",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/kaviarkan-ternera.jpeg",
+    "sku": "KVK-TERNERA-20KG",
+    "descripcion": "Croquetas de ternera para perros adultos, ricas en sabor y nutrientes para el equilibrio y bienestar.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "100% animal" },
+      { "label": "Beneficio", "value": "Refuerzo óseo, dental e inmunológico" },
+      { "label": "Beneficio", "value": "Ideal para perros tranquilos" }
+    ]
+  },
+  {
+    "id": "dinapet-premium",
+    "nombre": "Dinapet Premium Adulto",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "20kg",
+    "imagen": "/products/dinapet.jpeg",
+    "sku": "DNP-ADULTO-20KG",
+    "descripcion": "Alimento balanceado para perros adultos de todas las razas, con prebióticos y aroma.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "22%" },
+      { "label": "Grasa", "value": "11%" },
+      { "label": "Fibra", "value": "4%" },
+      { "label": "Beneficio", "value": "Fórmula mejorada con prebióticos y aroma" }
+    ]
+  },
+  {
+    "id": "alimento-carne-cerdo",
+    "nombre": "Alimento Canino Carne de Cerdo con Vegetales y Frutas",
+    "marca": "Bio-Alimento",
+    "categoria": "Alimento",
+    "presentacion": "500g",
+    "imagen": "/products/carne-cerdo.jpeg",
+    "sku": "BIO-ALM-CERDO-500",
+    "descripcion": "Alimento canino a base de carne de cerdo mezclado con vegetales y frutas. Calidad premium.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Conservación", "value": "Congelado hasta 60 días" },
+      { "label": "Preparación", "value": "Descongelar en refrigerador 24h antes" },
+      { "label": "Ingredientes", "value": "Cortes y vísceras de cerdo, frutas, verduras, huevo" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "kaviarkan-puppy",
+    "nombre": "Kaviar-kan Puppy Cachorro",
+    "marca": "Kaviar-kan",
+    "categoria": "Alimento",
+    "presentacion": "10kg",
+    "imagen": "/products/kaviarkan-puppy.jpeg",
+    "sku": "KVK-PUPPY-10KG",
+    "descripcion": "Alimento gourmet para cachorros de todas las razas con nutrición omega 3, 6 y 9. Proteína 100% animal.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta calidad 100% animal" },
+      { "label": "Omega", "value": "3, 6 y 9" },
+      { "label": "Beneficio", "value": "Nutrición completa para cachorros" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "kaviarkat-gato",
+    "nombre": "Kaviar-kat Gato",
+    "marca": "Kaviar-kat",
+    "categoria": "Alimento",
+    "presentacion": "13kg",
+    "imagen": "/products/kaviarkat.jpeg",
+    "sku": "KVK-GATO-13KG",
+    "descripcion": "Alimento premium para gatos de todas las razas, con omega 3, 6 y 9 para energía y pelaje brillante.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Proteína", "value": "100% animal" },
+      { "label": "Omega", "value": "3, 6 y 9" },
+      { "label": "Beneficio", "value": "Fácil digestión y pelaje fuerte" }
+    ]
+  },
+  {
+    "id": "kaviarkan-snacks-salmon",
+    "nombre": "Kaviar-kan Snacks Salmón",
+    "marca": "Kaviar-kan",
+    "categoria": "Snacks",
+    "presentacion": "Bolsa 12 piezas",
+    "imagen": "/products/kaviarkan-snacks-salmon.jpeg",
+    "sku": "KVK-SNK-SALMON-12",
+    "descripcion": "Galletas gourmet artesanales sabor salmón, elaboradas con ingredientes de calidad para perros y gatos.",
+    "especie": "Perros y Gatos",
+    "detalles": [
+      { "label": "Sabor", "value": "Salmón" },
+      { "label": "Beneficio", "value": "Refuerzo inmunológico" },
+      { "label": "Beneficio", "value": "Mejora la digestión" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "dinaelite-adulto-2kg",
+    "nombre": "Dina Elite Adulto 2kg",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "2kg",
+    "imagen": "/products/dinaelite.png",
+    "sku": "DNE-ADULTO-2KG",
+    "descripcion": "Alimento super premium para perros adultos de todas las razas, con alto contenido de proteína y grasa balanceada.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "30%" },
+      { "label": "Grasa", "value": "17%" },
+      { "label": "Beneficio", "value": "Fortalece músculos y aporta energía" }
+    ]
+  },
+  {
+    "id": "dinaelite-adulto-8kg",
+    "nombre": "Dina Elite Adulto 8kg",
+    "marca": "Dinavet",
+    "categoria": "Alimento",
+    "presentacion": "8kg",
+    "imagen": "/products/dinaelite.png",
+    "sku": "DNE-ADULTO-8KG",
+    "descripcion": "Alimento super premium para perros adultos en presentación de 8kg, con fórmula de alto rendimiento.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "30%" },
+      { "label": "Grasa", "value": "17%" },
+      { "label": "Beneficio", "value": "Ideal para perros activos y de trabajo" }
+    ]
+  },
+  {
+    "id": "guardapelos-mascotas",
+    "nombre": "Guardapelos para Perros y Gatos",
     "marca": "Animalijos Accesorios",
     "categoria": "Accesorios",
-    "presentacion": "Mediano",
-    "imagen": "/products/collar-m.jpg",
-    "sku": "ANI-COL-MED",
-    "descripcion": "Collar de nylon ajustable, resistente y cómodo para perros medianos.",
+    "presentacion": "Unidad",
+    "imagen": "/products/guardapelos.jpeg",
+    "sku": "ANI-GP-001",
+    "descripcion": "Guardapelos metálico para conservar un mechón de pelo de tu perro o gato como recuerdo especial.",
+    "especie": "Perros y Gatos",
+    "detalles": [
+      { "label": "Material", "value": "Acero inoxidable" },
+      { "label": "Uso", "value": "Accesorio conmemorativo" },
+      { "label": "Tamaño", "value": "Pequeño y ligero" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "relicario-mascotas",
+    "nombre": "Relicario para Perros y Gatos",
+    "marca": "Animalijos Accesorios",
+    "categoria": "Accesorios",
+    "presentacion": "Unidad",
+    "imagen": "/products/relicario.jpeg",
+    "sku": "ANI-RL-001",
+    "descripcion": "Relicario con diseño elegante para guardar recuerdos de tu mascota, como pelo o pequeñas cenizas.",
+    "especie": "Perros y Gatos",
+    "detalles": [
+      { "label": "Material", "value": "Acero inoxidable con acabado brillante" },
+      { "label": "Uso", "value": "Accesorio conmemorativo" },
+      { "label": "Diseño", "value": "Disponible en varios estilos" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "pastel-perros",
+    "nombre": "Pastel Especial para Perros",
+    "marca": "Animalijos Gourmet",
+    "categoria": "Alimento",
+    "presentacion": "Unidad (500g / 1kg)",
+    "imagen": "/products/pastel-perros.png",
+    "sku": "ANI-PAST-001",
+    "descripcion": "Pastel artesanal elaborado con ingredientes aptos para perros, ideal para cumpleaños y celebraciones.",
     "especie": "Perros",
     "detalles": [
-      { "label": "Material", "value": "Nylon reforzado" },
-      { "label": "Tamaño", "value": "Mediano (35–50 cm)" },
-      { "label": "Color", "value": "Rojo" },
+      { "label": "Sabor", "value": "Pollo con zanahoria y avena" },
+      { "label": "Decoración", "value": "Frosting natural sin azúcar" },
+      { "label": "Beneficio", "value": "100% seguro para consumo canino" },
+      { "label": "Opciones", "value": "Presentaciones personalizadas (500g / 1kg)" },
       { "label": "Origen", "value": "México" }
     ]
   }
+
+
 ]

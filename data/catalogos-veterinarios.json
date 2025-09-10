@@ -1,29 +1,29 @@
 [
   {
-    "slug": "linea-alimentos-pro",
-    "titulo": "Línea de Alimentos Pro",
-    "marca": "Animalijos Pro",
-    "descripcion": "Selección de alimentos de uso clínico con presentaciones para hospitalización y recuperación.",
-    "portada": "/catalogos/portadas/alimentos-pro.jpg",
-    "pdfUrl": "/catalogos/alimentos-pro.pdf",
-    "pagina": ""
+    "slug": "kruuse-consumibles-y-cuidados",
+    "titulo": "KRUUSE – Consumibles y cuidados clínicos",
+    "marca": "KRUUSE",
+    "descripcion": "Portafolio amplio para clínica: consulta y examen, cuidado de heridas (miel Manuka, hidrogel, apósitos), vendajes elásticos, inyección y jeringas, urología (catéteres perro/gato), inmovilización y férulas, guantes, cirugía y postoperatorio, dental, rehabilitación y aseo.",
+    "portada": "/catalogos/kruuse.png",
+    "pdfUrl": "/catalogos/Kruuse.pdf",
+    "pagina": "/catalogos/kruuse"
   },
   {
-    "slug": "consumibles-clinica",
-    "titulo": "Consumibles para clínica",
-    "marca": "Multimarca",
-    "descripcion": "Guantes, gasas, soluciones, jeringas y más. Presentaciones por caja o volumen.",
-    "portada": "/catalogos/portadas/consumibles.jpg",
-    "pdfUrl": "/catalogos/consumibles-clinica.pdf",
-    "pagina": ""
+    "slug": "mindray-diagnostico-e-imagen",
+    "titulo": "Mindray – Diagnóstico e imagen veterinaria",
+    "marca": "Mindray Animal Medical",
+    "descripcion": "Soluciones integrales para hospitales y clínicas: diagnóstico in vitro (hematología BC-20/30/5000/60R/75R, química BS-240 Vet, urianálisis), ultrasonido portátil y estacionario (Vetus series), rayos X (VetiX, VetiPad), endoscopia, monitores, bombas de infusión, anestesia (Veta/Wato) y ventilación.",
+    "portada": "/catalogos/mindray.png",
+    "pdfUrl": "/catalogos/Mindray.pdf",
+    "pagina": "/catalogos/mindray"
   },
   {
-    "slug": "equipamiento-basico",
-    "titulo": "Equipamiento básico",
-    "marca": "VetEquip",
-    "descripcion": "Mesas, jaulas, lámparas, bombas de infusión y accesorios.",
-    "portada": "/catalogos/portadas/equipamiento.jpg",
-    "pdfUrl": "/catalogos/equipamiento-basico.pdf",
-    "pagina": ""
+    "slug": "vetta-consumibles-y-mobiliario",
+    "titulo": "VETTA – Consumibles, equipo y mobiliario",
+    "marca": "VETTA",
+    "descripcion": "Distribución en México y LATAM de equipos, consumibles y mobiliario veterinario. Incluye líneas KRUUSE (vendajes Chew-Stop y Fun-Flex Care, collares isabelinos, bozales, jeringas), suturas y urología, además de otros accesorios clínicos.",
+    "portada": "/catalogos/vetta.png",
+    "pdfUrl": "/catalogos/VETTA.pdf",
+    "pagina": "/catalogos/vetta"
   }
 ]

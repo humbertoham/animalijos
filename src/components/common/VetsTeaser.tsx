@@ -29,25 +29,17 @@ export default function VetsTeaser() {
               <FiBookOpen className="text-lg" />
               Ver catálogos
             </Link>
-            <a
-              href="/catalogos/animalijos-veterinarios.pdf"
-              className="btn btn-ghost"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FiDownload className="text-lg" />
-              Descargar PDF
-            </a>
+           
           </div>
         </div>
 
         {/* Imagen/ilustración placeholder */}
-        <div className="card p-6 bg-sun-50 flex items-center justify-center">
+        <div className="card bg-sun-50 flex items-center justify-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/brands/animalijos.png"
+            src="../images/vet.png"
             alt="Catálogo veterinarios"
-            className="max-h-40 w-auto opacity-90"
+            className=" rounded-xl w-auto opacity-90"
           />
         </div>
       </div>

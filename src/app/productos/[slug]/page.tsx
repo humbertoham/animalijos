@@ -47,7 +47,7 @@ export default async function ProductPage({
   const message = encodeURIComponent(
     `Hola, vengo del sitio de Animalijos y quiero cotizar:\n\n${p.nombre}\n${p.marca ?? ""} ${p.presentacion ?? ""}\nSKU: ${p.sku ?? "N/A"}`
   );
-  const wa = `https://wa.me/5210000000000?text=${message}`;
+  const wa = `https://wa.me/524423676804?text=${message}`;
 
   const related = (data as Product[]).filter(
     (x) => x.id !== p.id && x.categoria === p.categoria

@@ -21,14 +21,14 @@ export default function Footer() {
 
           <div className="mt-4 flex gap-2">
             <a
-              href="https://wa.me/5210000000000"
+              href="https://wa.me/524423676804"
               className="btn bg-[var(--brand-sun)] border-[var(--brand-sun)]"
               aria-label="WhatsApp"
             >
               <FiMessageCircle />
               WhatsApp
             </a>
-            <a href="tel:+520000000000" className="btn bg-white border-[var(--ink-50)]">
+            <a href="tel:+524423676804" className="btn bg-white border-[var(--ink-50)]">
               <FiPhone />
               Llamar
             </a>
@@ -73,15 +73,15 @@ export default function Footer() {
               <FiPhone className="mt-1 text-ink-400" />
               <div className="text-sm">
                 <div className="font-medium text-ink">Teléfono</div>
-                <a href="tel:+520000000000" className="text-ink-400 hover:underline">+52 000 000 0000</a>
+                <a href="tel:+524423676804" className="text-ink-400 hover:underline">+52 442 367 6804</a>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <FiMail className="mt-1 text-ink-400" />
               <div className="text-sm">
                 <div className="font-medium text-ink">Correo</div>
-                <a href="mailto:contacto@animalijos.mx" className="text-ink-400 hover:underline">
-                  contacto@animalijos.mx
+                <a href="mailto:contacto@animalijos.com" className="text-ink-400 hover:underline">
+                  contacto@animalijos.com
                 </a>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Footer() {
               <FiClock className="mt-1 text-ink-400" />
               <div className="text-sm">
                 <div className="font-medium text-ink">Horario</div>
-                <div className="text-ink-400">Lun–Sáb 9:00–19:00, Dom 10:00–15:00</div>
+                <div className="text-ink-400">Lun–Vier 10:00–19:00, Sáb 10:00-15:00, Dom 09:00–14:00 sin servicio de estética</div>
               </div>
             </div>
           </div>

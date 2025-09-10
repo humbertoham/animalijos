@@ -20,7 +20,7 @@ const ALL_POSTS: Post[] = [
     title: "Cómo elegir alimento por etapa (cachorro, adulto, senior)",
     excerpt: "Guía rápida para escoger el alimento correcto según la edad, tamaño y necesidades de tu mascota.",
     category: "Alimentos",
-    cover: "/covers/food-stage.jpg",
+    cover: "/consejos/dogfood.png",
     date: "2025-07-15"
   },
   {
@@ -28,7 +28,7 @@ const ALL_POSTS: Post[] = [
     title: "Checklist para baño en casa sin estrés",
     excerpt: "Preparación, herramientas y pasos para un baño seguro y cómodo.",
     category: "Estética",
-    cover: "/covers/home-bath.jpg",
+    cover: "/consejos/dogshower.png",
     date: "2025-06-20"
   },
   {
@@ -36,7 +36,7 @@ const ALL_POSTS: Post[] = [
     title: "Snacks saludables para recompensa",
     excerpt: "Qué buscar en un premio y cómo evitar el exceso de calorías.",
     category: "Snacks",
-    cover: "/covers/snacks.jpg",
+    cover: "/consejos/dogsnack.png",
     date: "2025-05-02"
   },
   {
@@ -44,7 +44,7 @@ const ALL_POSTS: Post[] = [
     title: "Higiene dental básica: tips y frecuencia",
     excerpt: "Rutinas simples para evitar sarro y mal aliento.",
     category: "Higiene",
-    cover: "/covers/dental.jpg",
+    cover: "/consejos/dogdental.png",
     date: "2025-04-10"
   },
   {
@@ -52,7 +52,7 @@ const ALL_POSTS: Post[] = [
     title: "Paseo seguro: ¿arnés o collar?",
     excerpt: "Pros y contras de cada opción según temperamento y tamaño.",
     category: "Accesorios",
-    cover: "/covers/harness.jpg",
+    cover: "/consejos/dogwalk.png",
     date: "2025-03-18"
   },
   {
@@ -60,7 +60,7 @@ const ALL_POSTS: Post[] = [
     title: "Lista básica para nuevos tutores",
     excerpt: "Todo lo esencial para recibir a tu nuevo compañero.",
     category: "General",
-    cover: "/covers/starter-kit.jpg",
+    cover: "/consejos/babydog.png",
     date: "2025-01-28"
   }
 ];

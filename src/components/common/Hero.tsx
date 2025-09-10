@@ -55,13 +55,13 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <div className="aspect-[4/3] rounded-2xl overflow-hidden card bg-sun-100 grid place-items-center">
+          <div className=" rounded-2xl overflow-hidden card bg-sun-100 grid place-items-center">
             {/* Aquí pones tu imagen */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
+              src="../images/herosec.png"
               alt="Animalijos"
-              className="w-2/3 h-auto object-contain opacity-90"
+              className=" h-auto object-contain opacity-90"
             />
           </div>
           {/* Decoración */}

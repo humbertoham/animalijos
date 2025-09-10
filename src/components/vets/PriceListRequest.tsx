@@ -11,7 +11,7 @@ export default function PriceListRequest() {
     mensaje: "Hola, soy veterinario y me interesa su lista de precios.",
   });
 
-  const waLink = `https://wa.me/5210000000000?text=${encodeURIComponent(
+  const waLink = `https://wa.me/524423676804?text=${encodeURIComponent(
     `${form.mensaje}\n\nNombre: ${form.nombre}\nTel: ${form.telefono}\nEmail: ${form.email}`
   )}`;
 
@@ -82,14 +82,7 @@ export default function PriceListRequest() {
         >
           <FiMessageCircle /> Pedir por WhatsApp
         </button>
-        <a
-          href={`mailto:contacto@animalijos.mx?subject=Lista%20de%20precios%20veterinarios&body=${encodeURIComponent(
-            `${form.mensaje}\n\nNombre: ${form.nombre}\nTel: ${form.telefono}\nEmail: ${form.email}`
-          )}`}
-          className="btn btn-ghost"
-        >
-          <FiMail /> Solicitar por correo
-        </a>
+       
       </div>
     </form>
   );

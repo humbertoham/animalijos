@@ -47,7 +47,7 @@ export default function RootLayout({
         {children}
         <Footer/>
         <WhatsAppFAB
-          phone="5210000000000"
+          phone="524423676804"
           message="Hola, vengo del sitio de Animalijos y quiero una cotización."
           position="bottom-right"
           utm={{ source: "website", medium: "fab", campaign: "whatsapp_leads" }}

@@ -43,35 +43,19 @@ export default function CatalogCard({
         <div className="text-xs text-ink-400">{marca || "Veterinario"}</div>
         <h3 className="mt-1 font-semibold text-ink">{titulo}</h3>
         {descripcion && (
-          <p className="mt-1 text-sm text-ink-600 line-clamp-3">{descripcion}</p>
+          <p className="mt-1 text-sm text-ink-600 ">{descripcion}</p>
         )}
 
         {/* Acciones */}
         <div className="mt-auto pt-3 grid grid-cols-2 gap-2">
           <a
             href={pdfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            download // fuerza la descarga
             className="btn bg-[var(--brand-sun)] border-[var(--brand-sun)] text-ink"
             aria-label={`Descargar ${titulo}`}
           >
             <FiDownload /> PDF
           </a>
-          {pagina ? (
-            <a
-              href={pagina}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn bg-white border-[var(--ink-50)]"
-              aria-label={`Abrir página de ${titulo}`}
-            >
-              <FiExternalLink /> Página
-            </a>
-          ) : (
-            <span className="btn bg-white border-[var(--ink-50)] opacity-60 pointer-events-none">
-              <FiBookOpen /> Vista
-            </span>
-          )}
         </div>
       </div>
     </article>

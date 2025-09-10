@@ -17,12 +17,21 @@ import {
   FiPhone,
   FiMessageCircle,
 } from "react-icons/fi";
+import { usePathname } from "next/navigation"; // ⬅️ NUEVO
 import { NAV_ITEMS } from "./config";
 
 export default function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false); // menú móvil
   const [openIdx, setOpenIdx] = useState<number | null>(null); // dropdown desktop
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pathname = usePathname(); // ⬅️ NUEVO
+
+  // ==== Cerrar todo al cambiar de ruta (móvil/desktop) ====
+  useEffect(() => {
+    // Cada vez que cambie la ruta, se cierra el drawer y dropdowns
+    setDrawerOpen(false);
+    setOpenIdx(null);
+  }, [pathname]);
 
   // ==== Desktop dropdown helpers ====
   const closeWithDelay = () => {
@@ -146,7 +155,6 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            // capa oscura por detrás (por si haces transparencias después)
             className="fixed inset-0 z-[300] bg-white"
             onClick={() => setDrawerOpen(false)}
           >

@@ -4,7 +4,7 @@
     "title": "Cómo elegir alimento por etapa (cachorro, adulto, senior)",
     "excerpt": "Guía rápida para escoger el alimento correcto según la edad, tamaño y necesidades de tu mascota.",
     "category": "Alimentos",
-    "cover": "/covers/food-stage.jpg",
+    "cover": "/consejos/dogfood.png",
     "date": "2025-07-15",
     "content": "### Etapas de vida\n\n- **Cachorro**: requieren más proteína y calorías.\n- **Adulto**: dieta balanceada según nivel de actividad.\n- **Senior**: bajo en grasa, alto en fibra y con soporte articular.\n\n### Tips prácticos\n1. Consulta siempre con tu veterinario.\n2. Introduce cambios gradualmente (7–10 días).\n3. Observa el pelaje y energía de tu mascota como indicadores."
   },
@@ -13,7 +13,7 @@
     "title": "Checklist para baño en casa sin estrés",
     "excerpt": "Preparación, herramientas y pasos para un baño seguro y cómodo.",
     "category": "Estética",
-    "cover": "/covers/home-bath.jpg",
+    "cover": "/consejos/dogshower.png",
     "date": "2025-06-20",
     "content": "### Antes del baño\n- Cepilla a tu mascota para quitar nudos.\n- Prepara toallas y un lugar seguro.\n\n### Durante\n- Usa agua tibia, evita oídos y ojos.\n- Shampoo neutro o hipoalergénico.\n\n### Después\n- Seca con toalla y secadora en aire frío.\n- Premia con un snack."
   },
@@ -22,8 +22,35 @@
     "title": "Snacks saludables para recompensa",
     "excerpt": "Qué buscar en un premio y cómo evitar el exceso de calorías.",
     "category": "Snacks",
-    "cover": "/covers/snacks.jpg",
+    "cover": "/consejos/dogsnack.png",
     "date": "2025-05-02",
     "content": "### Snacks nutritivos\n\nElige premios con ingredientes naturales y sin exceso de sal o azúcar.\n\n- Galletas horneadas\n- Huesitos naturales\n- Snacks dentales\n\n### Tip\nUsa los premios en cantidades moderadas para no alterar la dieta."
+  },
+  {
+    "slug": "higiene-dental-basica",
+    "title": "Higiene dental básica: tips y frecuencia",
+    "excerpt": "Rutinas simples para evitar sarro y mal aliento.",
+    "category": "Higiene",
+    "cover": "/consejos/dogdental.png",
+    "date": "2025-04-10",
+    "content": "### Rutina básica\n\n- Cepilla los dientes de tu perro 2–3 veces por semana.\n- Usa cepillo y pasta especiales para mascotas.\n- Revisa encías y dientes regularmente.\n\n### Complementos\n- Juguetes mordederos\n- Snacks dentales\n\n### Tip\nHaz del cepillado una experiencia positiva con refuerzos."
+  },
+  {
+    "slug": "paseo-seguro-arnes-o-collar",
+    "title": "Paseo seguro: ¿arnés o collar?",
+    "excerpt": "Pros y contras de cada opción según temperamento y tamaño.",
+    "category": "Accesorios",
+    "cover": "/consejos/dogwalk.png",
+    "date": "2025-03-18",
+    "content": "### Arnés\n- Reparte mejor la presión.\n- Recomendado para razas pequeñas o con problemas respiratorios.\n\n### Collar\n- Más práctico y ligero.\n- Puede generar presión en el cuello.\n\n### Tip\nPrueba ambos y observa con cuál tu mascota se siente más cómoda y segura."
+  },
+  {
+    "slug": "lista-basica-para-nuevo-tutor",
+    "title": "Lista básica para nuevos tutores",
+    "excerpt": "Todo lo esencial para recibir a tu nuevo compañero.",
+    "category": "General",
+    "cover": "/consejos/babydog.png",
+    "date": "2025-01-28",
+    "content": "### Indispensables\n- Platos de comida y agua.\n- Cama cómoda.\n- Collar o arnés y correa.\n\n### Higiene\n- Tapete sanitario o bolsas para desechos.\n- Cepillo según tipo de pelo.\n\n### Bienestar\n- Juguetes interactivos.\n- Visita al veterinario para chequeo inicial.\n\n### Tip\nTen paciencia y establece rutinas desde el primer día."
   }
 ]

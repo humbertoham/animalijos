@@ -195,7 +195,7 @@
     "imagen": "/products/dinagallo.jpeg",
     "sku": "DNG-GALLO-25KG",
     "descripcion": "Alimento premium para gallos de combate con granos selectos y esferas energéticas.",
-    "especie": "Aves (Gallos)",
+    "especie": "Gallos",
     "detalles": [
       { "label": "Uso", "value": "Inicio, desarrollo, entrenamiento y combate" },
       { "label": "Beneficio", "value": "Con esferas energéticas (grit)" },
@@ -399,6 +399,319 @@
       { "label": "Decoración", "value": "Frosting natural sin azúcar" },
       { "label": "Beneficio", "value": "100% seguro para consumo canino" },
       { "label": "Opciones", "value": "Presentaciones personalizadas (500g / 1kg)" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+    {
+    "id": "nupec-nutricion-cientifica",
+    "nombre": "NUPEC Nutrición Canina Científica",
+    "marca": "NUPEC",
+    "categoria": "Alimento",
+    "presentacion": "Variedad según etapa de vida y necesidad",
+    "imagen": "/products/nupec-nutricion.png",
+    "sku": "NUP-NUTRI-001",
+    "descripcion": "Línea de alimentos formulados científicamente para perros, con más del 90% de digestibilidad de proteína. Diseñados por veterinarios y expertos en nutrición para cubrir cada etapa de vida o necesidad específica.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta digestibilidad (>90%)" },
+      { "label": "Beneficio", "value": "Formulado por veterinarios y científicos" },
+      { "label": "Etapas", "value": "Cachorro, adulto, senior y necesidades especiales" },
+      { "label": "Objetivo", "value": "Potenciar la salud, belleza y vitalidad canina" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "nupec-nutricion-especializada",
+    "nombre": "NUPEC Nutrición Canina Especializada",
+    "marca": "NUPEC",
+    "categoria": "Alimento Premium",
+    "presentacion": "Variedad según necesidad específica",
+    "imagen": "/products/nupec-especializada.png",
+    "sku": "NUP-ESP-001",
+    "descripcion": "Línea de nutrición súper premium especializada para perros, formulada con respaldo científico para cubrir necesidades específicas de salud y bienestar. Recomendada por veterinarios para ofrecer la mejor calidad de vida a tu mascota.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Formulación científica especializada" },
+      { "label": "Soporte", "value": "Respaldado por investigación nutricional" },
+      { "label": "Variedades", "value": "Digestive Care, Sensitive Skin, Joint Care, Weight Control" },
+      { "label": "Recomendación", "value": "Consultar con veterinario para elección adecuada" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "nupec-premios-funcionales",
+    "nombre": "NUPEC Premios Funcionales",
+    "marca": "NUPEC",
+    "categoria": "Snacks",
+    "presentacion": "Variedad según función específica",
+    "imagen": "/products/nupec-premios.png",
+    "sku": "NUP-PREM-001",
+    "descripcion": "Línea de premios funcionales para perros, elaborados con ingredientes nutritivos y deliciosos que además aportan beneficios específicos para la salud de tu mascota.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Nutrición que premia conscientemente" },
+      { "label": "Ingredientes", "value": "Formulados con componentes funcionales" },
+      { "label": "Variedades", "value": "Cuidado dental, piel y pelo, digestión, articulaciones" },
+      { "label": "Uso", "value": "Snack nutritivo y saludable para consentir" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+   {
+    "id": "nupec-alimento-humedo-perros",
+    "nombre": "NUPEC Alimento Húmedo para Perros",
+    "marca": "NUPEC",
+    "categoria": "Alimento Húmedo",
+    "presentacion": "Latas y sobres individuales",
+    "imagen": "/products/nupec-humedo.png",
+    "sku": "NUP-HUM-001",
+    "descripcion": "Alimento húmedo premium para perros, formulado con ingredientes de alta calidad que aportan nutrición, hidratación y un sabor irresistible.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Fomenta la hidratación y palatabilidad" },
+      { "label": "Ingredientes", "value": "Proteínas de origen animal con vitaminas y minerales" },
+      { "label": "Variedades", "value": "Pollo, res, cordero, pavo" },
+      { "label": "Uso", "value": "Alimento completo o complemento de la dieta seca" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+   {
+    "id": "nupec-nutricion-felina-cientifica",
+    "nombre": "NUPEC Nutrición Felina Científica",
+    "marca": "NUPEC",
+    "categoria": "Alimento",
+    "presentacion": "Variedad según etapa de vida y necesidad",
+    "imagen": "/products/nupec-felina.png",
+    "sku": "NUP-FEL-001",
+    "descripcion": "Línea de alimentos formulados científicamente para gatos, con más del 90% de digestibilidad de proteína. Diseñados por veterinarios y expertos en nutrición para cubrir cada etapa de vida o necesidad específica.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta digestibilidad (>90%)" },
+      { "label": "Beneficio", "value": "Formulado por veterinarios y científicos" },
+      { "label": "Etapas", "value": "Cachorro, adulto, senior y necesidades especiales" },
+      { "label": "Objetivo", "value": "Potenciar la salud, belleza y vitalidad felina" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "nupec-nutricion-felina-especializada",
+    "nombre": "NUPEC Nutrición Felina Especializada",
+    "marca": "NUPEC",
+    "categoria": "Alimento Premium",
+    "presentacion": "Variedad según necesidad específica",
+    "imagen": "/products/nupec-felina-especializada.png",
+    "sku": "NUP-FEL-ESP-001",
+    "descripcion": "Línea de nutrición súper premium especializada para gatos, formulada con respaldo científico para cubrir necesidades específicas de salud y bienestar. Recomendada por veterinarios para ofrecer la mejor calidad de vida a tu felino.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Formulación científica especializada" },
+      { "label": "Soporte", "value": "Respaldado por investigación nutricional" },
+      { "label": "Variedades", "value": "Sensitive Skin, Urinary Care, Hairball Control, Weight Control" },
+      { "label": "Recomendación", "value": "Consultar con veterinario para elección adecuada" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "nupec-alimento-humedo-gatos",
+    "nombre": "NUPEC Alimento Húmedo para Gatos",
+    "marca": "NUPEC",
+    "categoria": "Alimento Húmedo",
+    "presentacion": "Latas y sobres individuales",
+    "imagen": "/products/nupec-humedo-gatos.png",
+    "sku": "NUP-HUM-FEL-001",
+    "descripcion": "Alimento húmedo premium para gatos, elaborado con proteínas de alta calidad y textura irresistible. Nutrición completa o complemento ideal para su dieta seca.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Hidratación y alta palatabilidad" },
+      { "label": "Ingredientes", "value": "Proteínas de origen animal con vitaminas y minerales" },
+      { "label": "Variedades", "value": "Pollo, res, atún, salmón" },
+      { "label": "Uso", "value": "Alimento completo o complemento de croquetas" },
+      { "label": "Origen", "value": "México" }
+    ]
+  }, {
+    "id": "animalijos-alimento-roedores",
+    "nombre": "Alimento para Roedores",
+    "marca": "Animalijos",
+    "categoria": "Alimento",
+    "presentacion": "Bolsa 1kg",
+    "imagen": "/products/hamster.png",
+    "sku": "ANI-ROED-001",
+    "descripcion": "Mezcla balanceada de granos, semillas y pellets enriquecidos con vitaminas y minerales, formulada para hámsters, cuyos, conejos y otros roedores.",
+    "especie": "Roedores",
+    "detalles": [
+      { "label": "Beneficio", "value": "Apoya la salud dental y digestiva" },
+      { "label": "Ingredientes", "value": "Semillas, cereales, fibras vegetales" },
+      { "label": "Uso", "value": "Alimento diario para roedores pequeños" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "animalijos-alimento-peces",
+    "nombre": "Alimento para Peces de Acuario",
+    "marca": "Animalijos",
+    "categoria": "Alimento",
+    "presentacion": "Bote 250g",
+    "imagen": "/products/fish.png",
+    "sku": "ANI-PEC-001",
+    "descripcion": "Alimento flotante en hojuelas y gránulos de alta digestibilidad para peces tropicales y de acuario.",
+    "especie": "Peces",
+    "detalles": [
+      { "label": "Beneficio", "value": "Realza el color y fortalece el sistema inmune" },
+      { "label": "Variedades", "value": "Peces tropicales, dorados, bettas, cíclidos" },
+      { "label": "Uso", "value": "Ración diaria en peceras y acuarios" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "animalijos-alimento-reptiles",
+    "nombre": "Alimento para Reptiles",
+    "marca": "Animalijos",
+    "categoria": "Alimento",
+    "presentacion": "Bolsa 500g",
+    "imagen": "/products/reptiles.png",
+    "sku": "ANI-REP-001",
+    "descripcion": "Alimento completo y balanceado en pellets y mezclas secas para reptiles herbívoros, insectívoros y omnívoros.",
+    "especie": "Reptiles",
+    "detalles": [
+      { "label": "Beneficio", "value": "Provee proteínas, calcio y vitaminas esenciales" },
+      { "label": "Variedades", "value": "Tortugas, iguanas, geckos, camaleones" },
+      { "label": "Uso", "value": "Alimento especializado según tipo de reptil" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "animalijos-alimento-aves",
+    "nombre": "Alimento para Aves",
+    "marca": "Animalijos",
+    "categoria": "Alimento",
+    "presentacion": "Bolsa 2kg",
+    "imagen": "/products/birds.png",
+    "sku": "ANI-AVE-001",
+    "descripcion": "Mezcla nutritiva de semillas y granos seleccionados para aves domésticas y ornamentales.",
+    "especie": "Aves",
+    "detalles": [
+      { "label": "Beneficio", "value": "Favorece el canto, plumaje y vitalidad" },
+      { "label": "Variedades", "value": "Pericos, canarios, ninfas, agapornis" },
+      { "label": "Uso", "value": "Suministrar como dieta principal" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-perros",
+    "nombre": "Purina Pro Plan Perros",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según etapa y raza",
+    "imagen": "/products/proplan-perros.png",
+    "sku": "PPL-PER-001",
+    "descripcion": "Alimento seco premium para perros, formulado científicamente para cada etapa de vida y tamaño de raza. Contiene proteínas de alta calidad y nutrientes esenciales.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta calidad de origen animal" },
+      { "label": "Beneficio", "value": "Soporte digestivo e inmunológico" },
+      { "label": "Variedades", "value": "Cachorro, adulto, senior, razas pequeñas, medianas y grandes" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-humedo-perros",
+    "nombre": "Purina Pro Plan Alimento Húmedo Perros",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Húmedo",
+    "presentacion": "Latas y sobres",
+    "imagen": "/products/proplan-humedo-perros.png",
+    "sku": "PPL-HUM-PER-001",
+    "descripcion": "Alimento húmedo premium para perros, elaborado con ingredientes de alta calidad y texturas irresistibles para mejorar la hidratación y palatabilidad.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Hidratación y sabor irresistible" },
+      { "label": "Uso", "value": "Como dieta completa o complemento de croquetas" },
+      { "label": "Variedades", "value": "Pollo, cordero, res y salmón" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-gatos",
+    "nombre": "Purina Pro Plan Gatos",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según etapa y necesidad",
+    "imagen": "/products/proplan-gatos.png",
+    "sku": "PPL-GAT-001",
+    "descripcion": "Alimento seco premium para gatos, formulado por expertos para cubrir las necesidades nutricionales en cada etapa de vida, promoviendo salud, energía y pelaje brillante.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Proteína", "value": "Alta digestibilidad" },
+      { "label": "Beneficio", "value": "Favorece sistema urinario y pelaje saludable" },
+      { "label": "Variedades", "value": "Cachorro, adulto, senior, esterilizado, control de bolas de pelo" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-humedo-gatos",
+    "nombre": "Purina Pro Plan Alimento Húmedo Gatos",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Húmedo",
+    "presentacion": "Latas y sobres",
+    "imagen": "/products/proplan-humedo-gatos.png",
+    "sku": "PPL-HUM-GAT-001",
+    "descripcion": "Alimento húmedo premium para gatos, con ingredientes de alta calidad, texturas jugosas y nutrientes esenciales para su bienestar.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Alta palatabilidad y soporte urinario" },
+      { "label": "Uso", "value": "Como alimento completo o complemento" },
+      { "label": "Variedades", "value": "Pollo, res, salmón y atún" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-veterinary-diets-perros",
+    "nombre": "Purina Pro Plan Veterinary Diets Perros",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Veterinario",
+    "presentacion": "Sacos y latas",
+    "imagen": "/products/proplan-veterinary-perros.png",
+    "sku": "PPL-VET-PER-001",
+    "descripcion": "Alimentos especializados de uso veterinario para perros, formulados científicamente para el manejo de condiciones de salud específicas.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Soporte nutricional para condiciones médicas" },
+      { "label": "Variedades", "value": "Gastroenteric, Renal, Hepatic, EN, OM, HA" },
+      { "label": "Recomendación", "value": "Uso bajo supervisión veterinaria" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+  {
+    "id": "proplan-veterinary-diets-gatos",
+    "nombre": "Purina Pro Plan Veterinary Diets Gatos",
+    "marca": "Purina Pro Plan",
+    "categoria": "Alimento Veterinario",
+    "presentacion": "Sacos y latas",
+    "imagen": "/products/proplan-veterinary-gatos.png",
+    "sku": "PPL-VET-GAT-001",
+    "descripcion": "Línea de alimentos veterinarios especializados para gatos, formulados para apoyar el tratamiento de condiciones de salud diagnosticadas.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Nutrición clínica de soporte" },
+      { "label": "Variedades", "value": "Renal, Urinary, Gastroenteric, HA" },
+      { "label": "Recomendación", "value": "Uso exclusivo bajo indicación veterinaria" },
+      { "label": "Origen", "value": "México" }
+    ]
+  },
+   {
+    "id": "dogelthy-suplementos",
+    "nombre": "Dogelthy Suplementos para Perros",
+    "marca": "Dogelthy",
+    "categoria": "Suplementos",
+    "presentacion": "Frascos y sobres",
+    "imagen": "/products/dogelthy-suplementos.png",
+    "sku": "DOG-SUP-001",
+    "descripcion": "Línea de suplementos premium para perros, diseñados para apoyar la salud articular, digestiva, inmunológica y general de tu mascota.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Formulados con ingredientes naturales y clínicamente probados" },
+      { "label": "Variedades", "value": "Articulaciones, digestión, piel y pelo, multivitamínico" },
+      { "label": "Uso", "value": "Suplemento nutricional de apoyo diario" },
+      { "label": "Recomendación", "value": "Consultar al veterinario para la dosis adecuada" },
       { "label": "Origen", "value": "México" }
     ]
   }

@@ -714,6 +714,142 @@
       { "label": "Recomendación", "value": "Consultar al veterinario para la dosis adecuada" },
       { "label": "Origen", "value": "México" }
     ]
+  },
+   {
+    "id": "royalcanin-cachorros",
+    "nombre": "Royal Canin Cachorros",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según raza y tamaño",
+    "imagen": "/products/royalcanin-cachorros.jpeg",
+    "sku": "RC-CACH-001",
+    "descripcion": "Alimento premium formulado para cachorros de todas las razas, con nutrientes que apoyan el desarrollo cerebral, inmunológico y óseo.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Apoya crecimiento saludable y defensas naturales" },
+      { "label": "Variedades", "value": "Razas pequeñas, medianas, grandes y gigantes" },
+      { "label": "Proteína", "value": "Alta digestibilidad" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-adultos-perros",
+    "nombre": "Royal Canin Perros Adultos",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según raza y tamaño",
+    "imagen": "/products/royalcanin-adultos-perros.jpeg",
+    "sku": "RC-ADULTO-PER-001",
+    "descripcion": "Alimento seco premium para perros adultos, formulado para mantener energía, masa muscular y salud digestiva.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Soporte digestivo y muscular" },
+      { "label": "Variedades", "value": "Razas pequeñas, medianas, grandes y específicas (Bulldog, Labrador, Chihuahua, etc.)" },
+      { "label": "Uso", "value": "Dieta diaria completa y balanceada" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-senior-perros",
+    "nombre": "Royal Canin Perros Mayores",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según tamaño y necesidades",
+    "imagen": "/products/royalcanin-senior-perros.jpeg",
+    "sku": "RC-SENIOR-PER-001",
+    "descripcion": "Nutrición diseñada para perros mayores, con antioxidantes, proteínas de alta calidad y nutrientes que apoyan articulaciones y vitalidad.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Apoya la movilidad y salud renal" },
+      { "label": "Variedades", "value": "Razas pequeñas, medianas y grandes" },
+      { "label": "Uso", "value": "Nutrición adaptada a la edad avanzada" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-veterinary-perros",
+    "nombre": "Royal Canin Veterinary Diets Perros",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Veterinario",
+    "presentacion": "Sacos y latas",
+    "imagen": "/products/royalcanin-veterinary-perros.jpeg",
+    "sku": "RC-VET-PER-001",
+    "descripcion": "Línea de alimentos veterinarios especializados para perros, formulados para apoyar el tratamiento de condiciones de salud específicas.",
+    "especie": "Perros",
+    "detalles": [
+      { "label": "Beneficio", "value": "Soporte nutricional clínico" },
+      { "label": "Variedades", "value": "Gastrointestinal, Renal, Hepatic, Hypoallergenic, Satiety" },
+      { "label": "Recomendación", "value": "Uso exclusivo bajo indicación veterinaria" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-gatitos",
+    "nombre": "Royal Canin Gatitos",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según etapa y raza",
+    "imagen": "/products/royalcanin-gatitos.jpeg",
+    "sku": "RC-GATITO-001",
+    "descripcion": "Alimento premium para gatitos, con nutrientes que apoyan el desarrollo cerebral, inmunológico y óseo durante sus primeros meses de vida.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Apoya el crecimiento y defensas naturales" },
+      { "label": "Variedades", "value": "Kitten, Kitten Sterilised, Second Age Kitten" },
+      { "label": "Uso", "value": "Dieta diaria adaptada a la etapa de vida temprana" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-adultos-gatos",
+    "nombre": "Royal Canin Gatos Adultos",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según necesidad y estilo de vida",
+    "imagen": "/products/royalcanin-adultos-gatos.jpeg",
+    "sku": "RC-ADULTO-GAT-001",
+    "descripcion": "Nutrición premium para gatos adultos, diseñada para favorecer el sistema urinario, controlar el peso y mantener un pelaje saludable.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Soporte urinario y control de peso" },
+      { "label": "Variedades", "value": "Indoor, Sterilised, Fit, Hairball Care" },
+      { "label": "Uso", "value": "Nutrición diaria adaptada a gatos adultos" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-senior-gatos",
+    "nombre": "Royal Canin Gatos Mayores",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Seco",
+    "presentacion": "Variedad según edad avanzada",
+    "imagen": "/products/royalcanin-senior-gatos.jpeg",
+    "sku": "RC-SENIOR-GAT-001",
+    "descripcion": "Nutrición adaptada para gatos senior, con antioxidantes, ácidos grasos y nutrientes que apoyan articulaciones, riñones y vitalidad.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Favorece la movilidad y función renal" },
+      { "label": "Variedades", "value": "Ageing +7, Ageing +12" },
+      { "label": "Uso", "value": "Dieta balanceada para gatos mayores" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
+  },
+  {
+    "id": "royalcanin-veterinary-gatos",
+    "nombre": "Royal Canin Veterinary Diets Gatos",
+    "marca": "Royal Canin",
+    "categoria": "Alimento Veterinario",
+    "presentacion": "Sacos y latas",
+    "imagen": "/products/royalcanin-veterinary-gatos.jpeg",
+    "sku": "RC-VET-GAT-001",
+    "descripcion": "Línea de alimentos veterinarios especializados para gatos, formulados para apoyar condiciones clínicas específicas bajo supervisión veterinaria.",
+    "especie": "Gatos",
+    "detalles": [
+      { "label": "Beneficio", "value": "Nutrición clínica especializada" },
+      { "label": "Variedades", "value": "Renal, Urinary, Hypoallergenic, Gastrointestinal" },
+      { "label": "Recomendación", "value": "Uso exclusivo bajo indicación veterinaria" },
+      { "label": "Origen", "value": "Francia / México" }
+    ]
   }
 
 
